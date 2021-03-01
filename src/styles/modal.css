@@ -1,0 +1,50 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .modal-main {
+    position:fixed;
+    background: #4c2a4c;
+    width: 50%;
+    height: auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+  }
+  
+  .display-block {
+    display: block;
+  }
+
+  button[type='button']{
+    margin: 10px;
+  background: #eee;
+  display: block;
+  background-color: #996ba9;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  }  
+  .display-none {
+    display: none;
+  }
+
+  .update_div{
+    display: flex;
+  }
+
+  @media only screen and (min-device-width: 280px) and (max-device-width: 568px){
+    .update_div{
+      display: unset !important;
+    }
+  }
