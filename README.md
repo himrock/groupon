@@ -1,6 +1,6 @@
-Step 1:- clone the repo
-Step 2:- go to groupon folder and do npm install
-step 3:- then type `npm start` and hit enterm this will open [http://localhost:3000](http://localhost:3000) in the browser.
+Step 1:- clone the repo.\
+Step 2:- go to groupon folder and do npm install.\
+step 3:- then type `npm start` and hit enterm this will open [http://localhost:3000](http://localhost:3000) in the browser.\
 
 that's it
 
